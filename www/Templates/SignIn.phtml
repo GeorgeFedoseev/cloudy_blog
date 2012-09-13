@@ -1,0 +1,16 @@
+<?if(!$this->activeUser){?>
+	<a class="helper" href="/signup/">Еще не зарегистрировались?</a>
+    <form method="post" action="/dosignin/">
+        <input type="email" placeholder="E-mail" name="email" /><br/>
+        <input type="password" placeholder="Пароль" name="password" /><br/>
+        <input type="submit" value="Войти" />
+        <?if($error = View::getThroughData("error")):?>
+            <div class="error">
+                <?=$error?>
+                <?=Decorate::oldKeeper()?>   
+            </div>
+        <?endif;?>
+    </form>
+<?}else{?>
+    <h1 id="already">Вы уже вошли <?=Decorate::oldKeeper()?></h1>
+<?}?>

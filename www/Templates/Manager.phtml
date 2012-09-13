@@ -1,0 +1,74 @@
+
+<h2>UserManager</h2>
+
+<div id="show">
+        <?if($this->show == USER_STATUS_BANNED):?>
+            <a href="/manager/show/active">Активные</a>
+            <span class="selected">Забаненые</span>    
+            <a href="/manager/show/removed">Удаленные</a>       
+        <?elseif($this->show == USER_STATUS_REMOVED):?>
+            <a href="/manager/show/active">Активные</a>
+            <a href="/manager/show/banned">Забаненые</a>    
+            <span class="selected">Удаленные</span>       
+        <?else:?>
+            <span class="selected">Активные</span>
+            <a href="/manager/show/banned">Забаненые</a>    
+            <a href="/manager/show/removed">Удаленные</a>
+        <?endif;?>
+</div>
+
+<table id="manager">
+    <?if($this->show == USER_STATUS_ACTIVE){?>   
+        <?if($this->activeUsers){?>
+            <?foreach ($this->activeUsers as $user) {?>
+               <tr class="user">
+                    <td class="info"><?=Decorate::getName($user)?></td>
+                    <td class="actions">
+                        <?                    
+                        if($user->getRights() !== USER_RIGHTS_ADMIN){?>
+                            <a href="/removeuser/<?=$user->getId()?>">удалить</a>
+                        <?}else{?>
+                            админ
+                        <?}?>
+                    </td>
+               </tr>
+            <?}?>
+        <?}?>
+    <?}elseif($this->show == USER_STATUS_REMOVED){?> 
+        <?if($this->removedUsers){?>
+            <?foreach ($this->removedUsers as $user) {?>
+               <tr class="user">
+                    <td class="info"><?=Decorate::getName($user)?></td>
+                    <td class="actions">
+                        <?                    
+                        if($user->getRights() !== USER_RIGHTS_ADMIN){?>
+                            <a href="/activateuser/<?=$user->getId()?>">восстановить</a>
+                        <?}else{?>
+                            админ
+                        <?}?>
+                    </td>
+               </tr>
+            <?}?>       
+        <?}else{?>
+            <h2>Нет удаленных пользователей</h2>
+        <?}?>
+    <?}else{?>
+        <?if($this->bannedUsers){?>
+            <?foreach ($this->bannedUsers as $user) {?>
+               <tr class="user">
+                    <td class="info"><?=Decorate::getName($user)?></td>
+                    <td class="actions">
+                        <?                    
+                        if($user->getRights() !== USER_RIGHTS_ADMIN){?>
+                            <a href="/activateuser/<?=$user->getId()?>">восстановить</a>
+                        <?}else{?>
+                            админ
+                        <?}?>
+                    </td>
+               </tr>
+            <?}?>       
+        <?}else{?>
+            <h2>Нет забаненых пользователей</h2>
+        <?}?>
+    <?}?>
+</table>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><?=$this->title?></title>
+		<link rel="stylesheet" type="text/css" href="/Templates/Base/css/Default.css"/>
+		<?=STD_INCLUDE?>
+	</head>
+	  <body>
+
+	  	<div id="header" class="cloud">
+			<?if($this->activeUser){?>
+				<div id="mainMenu">
+					<a href="/createpost/">/создать</a>
+					<a href="/all/">/все посты</a>
+				</div>
+				<div id="userBar">
+					<a id="sign" href="/dosignout/">выйти</a>
+				</div>
+			<?}else{?>
+				<div id="mainMenu">
+					<a href="/all/">/все посты</a>
+				</div>
+				<div id="userBar">
+					<a id="sign" href="/signin/">войти</a>
+				</div>
+			<?}?>
+		</div>
+	  	  
+	  	<div id="container">	  		
+	  		<?=$this->innerTpl?>
+	  	</div>	
+
+	  	<div id="footer"><span><?=UI_NAME_FULL?> <!--<?=date("Y")?>--></span></div>  	
+	  	  
+	  </body>
+</html>

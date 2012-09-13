@@ -1,0 +1,32 @@
+<div class="comment">
+	<div class="commentInfo">
+		<a name="comment<?=$this->comment->getId()?>"></a>
+		<div class="commentUser"><?=Decorate::getName(CommentMapper::getOwner($this->comment), true, "comments")?></div>
+		<div class="commentTime"><?=Decorate::time($this->comment->getCreated())?> написал(-а):</div>
+
+		<?if($this->activeUser && ($this->activeUser->getRights() == USER_RIGHTS_ADMIN || UserMapper::ownershipForComment($this->comment, $this->activeUser))):?>
+			<div class="commentActions">
+				<a class="commentActionRemove" href="/confirm/removecomment/<?=$this->comment->getId()?>">удалить</a>
+			</div>
+		<?endif;?>
+		
+	</div>
+
+	<div class="commentRating">
+		 <div class="commentRatingValue">↑↓<?=Decorate::feelNumber(round($this->comment->getRating(), 3))?></div>
+			<?if($user = UserMapper::getUser()){?>
+				<div class="commentRatingActions">
+					<button rate_type="comment" id="<?=$this->comment->getId()?>" direction="positive" class="rateButton">+</button>
+					<button rate_type="comment" id="<?=$this->comment->getId()?>" direction="negative" class="rateButton">-</button>
+				</div>
+			<?}?>
+	</div>
+	
+	<div class="commentBody"><?=Decorate::newLines($this->comment->getComment())?></div>
+	
+
+	<?if($this->commentFrom instanceof Post):?>
+			<div class="clear-margin-bottom"></div>
+				<div class="commentFrom">в посте <a href="/post/<?=$this->commentFrom->getId()?>/#comment<?=$this->comment->getId()?>">"<?=$this->commentFrom->getTitle()?>"</a></div>
+	<?endif;?>
+</div>

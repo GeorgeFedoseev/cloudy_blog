@@ -1,0 +1,15 @@
+
+<form method="post" action="<?=$this->action?>/">
+    <div class="hint">Тема:</div>
+    <input type="text" placeholder="Тема" name="title" /><br/>
+    <div class="hint">Сообщение:</div>
+    <textarea name="body" placeholder="Сообщение"></textarea><br/>
+    <div class="hint">Теги через запятую:</div>
+    <input type="text" placeholder="Теги через запятую" name="tags" /><br/>
+    <div class="hint">Доп. материал ссылкой (изображение или видео):</div>
+    <input type="text" placeholder="Url изображения или видео" name="extra" /><br/>
+    <input type="submit" value="<?=$this->buttonLabel?>" />
+    <?if($error = View::getThroughData("error")):?>
+        <div class="error"><?=$error?></div>
+    <?endif;?>
+</form>        

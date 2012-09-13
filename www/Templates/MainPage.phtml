@@ -1,0 +1,11 @@
+<?if($posts = $this->posts){?>
+  <!--<h2>Все посты</h2>-->
+	<div id="posts">
+		<?foreach($posts as $post):?>
+			<?=View::commonRender("post", array("post"=>$post))?>
+		<?endforeach;?>
+	</div>
+	<?=Decorate::pager($this->postsCount, POSTS_PER_PAGE, $this->page, "/all", "center")?>
+<?}else{?>
+	<h2>Пока ничего нет</h2>
+<?}?>

@@ -1,0 +1,48 @@
+<div id="userPage">
+
+	
+	<?	
+		$userPic = "/Classes/Utils/PastelHash.php?W=200&H=50&hash=".md5($this->user->getEmail())."&opt=".(($this->user->getStatus() !== USER_STATUS_ACTIVE)?"grayscale":"");
+	?>
+		<h2 id="userName" style="background: url('<?=$userPic?>'); background-size:contain;"><?=Decorate::getName($this->user, false)?></h2>	
+			<div id="userRating"><?=Decorate::feelNumber(round($this->user->getRating(), 3))?></div>
+
+	<div id="show">
+		<?if($this->show == "comments"):?>
+			<a href="/user/<?=$this->user->getId()?>/show/posts">Посты</a>
+			<span class="selected">Комментарии</span>			
+		<?else:?>
+			<span class="selected">Посты</span>			
+			<a href="/user/<?=$this->user->getId()?>/show/comments">Комментарии</a>			
+		<?endif;?>
+	</div>
+
+	<?if($this->show == "comments"){?>
+		<?if($this->userComments){?>
+			<div id="userComments">
+				<?foreach($this->userComments as $comment){?>
+					<?=View::commonRender("comment", array("comment"=>$comment, "commentFrom" => CommentMapper::getPost($comment)))?>
+				<?}?>
+			</div>
+			<?=Decorate::pager($this->userCommentsCount, COMMENTS_PER_PAGE, $this->page, "/user/{$this->user->getId()}/show/comments", "center")?>
+		<?}elseif($this->page == 1){?>
+			<h2><?=Decorate::getName($this->user, false)?> еще ничего не прокомментировал(-а)</h2>
+		<?}else{
+			header("Location: /notfound/");
+		}?>
+	<?}else{?>
+		<?if($this->userPosts){?>
+			<div id="userPosts">
+				<?foreach($this->userPosts as $post){?>
+					<?=View::commonRender("post", array("post"=>$post))?>
+				<?}?>
+			</div>
+			<?=Decorate::pager($this->userPostsCount, POSTS_PER_PAGE, $this->page, "/user/{$this->user->getId()}/show/posts", "center")?>
+		<?}elseif($this->page == 1){?>
+			<h2><?=Decorate::getName($this->user, false)?> еще ни о чем не рассказал(-а)</h2>
+		<?}else{
+			header("Location: /notfound/");
+		}?>
+
+	<?}?>
+</div>

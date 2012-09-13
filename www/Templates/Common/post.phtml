@@ -1,0 +1,47 @@
+<div class="post">	
+	<a class="title" href="/post/<?=$this->post->getId()?>"><?=$this->post->getTitle()?></a>
+	<div class="clear-margin-bottom"></div>
+	<a class="extra" href="/post/<?=$this->post->getId()?>"><?=Decorate::showExtra($this->post->getExtra(), true)?></a>
+	<div class="body"><?=Filter::limitString(Decorate::newLines($this->post->getBody()))?></div>	
+	<div class="postFooter">						
+		<?
+
+		if(
+				($user = $this->activeUser) 
+					&& (
+						  $user->getRights() == USER_RIGHTS_ADMIN 
+						  || ($ownership = UserMapper::ownership($this->post, $user))
+						)
+		  ){?>
+			<!--<div class="postActions">
+			  <a href="/edit/<?=$this->post->getId()?>">редактировать</a>
+			  <a href="/remove/<?=$this->post->getId()?>">удалить</a>
+			</div>		-->
+		<?}?> 
+
+		<?if($this->postTags = PostMapper::getTags($this->post)):?>
+		  <div class="postTags">
+		  	<b>Теги:</b> 
+			<?foreach($this->postTags as $tag):?>
+				<a href="/tag/<?=$tag->getTag()?>"><?=$tag->getTag()?></a> 
+			<?endforeach;?>
+		  </div>
+		<?endif;?>
+
+		<?if($commentsCount = PostMapper::getCommentsCount($this->post)):?>
+			<div class="commentsInfo">
+				<a href="/post/<?=$this->post->getId()?>#comments"><?=$commentsCount?> комментари (-й-я-ев)</a>
+			</div>
+			 <div class="clear"></div>
+		<?endif;?>
+
+		<div class="postInfo">			
+			<?$owner = PostMapper::getOwner($this->post);?>
+				Написал(-а) <?=Decorate::getName($owner)?> <?=Decorate::time($this->post->getCreated())?>			
+		</div>
+
+		<div class="postRating">
+		 <div class="postRatingValue">↑↓<?=Decorate::feelNumber(round($this->post->getRating(), 3))?></div>
+		</div>
+	</div>
+</div>

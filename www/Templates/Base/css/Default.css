@@ -1,0 +1,647 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: skyBlue;
+    font-family: Helvetivca, Arial;
+    color: #272822;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+    body *{
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+    }
+
+    a{
+        outline: none;
+        color: #272822;
+    }
+
+    img{
+        outline: none;
+        border: none;
+    }
+
+    h1{
+        opacity: .8;
+        margin-bottom: .2em;        
+    }
+
+    h2{
+        opacity: .8;
+        font-size: 1.8em;
+        margin-bottom: .2em;
+    }
+
+    h3{
+        opacity: .8;
+        font-size: 1.2em;
+        margin-bottom: .2em;
+    }
+
+    form{ 
+    }
+
+    input[type="text"], input[type="email"], input[type="password"]{
+        width: 100%;        
+        font-size: 1.5em;
+        padding: 4px;
+        font-weight: 400;
+        background: #FAFFBD;
+        margin-bottom: 5px;
+        border: none;
+        outline: none;
+    }
+        input[name="title"]{
+            border-radius: 5px 5px 0 0;
+            -webkit-border-radius: 5px 5px 0 0;
+            -moz-border-radius: 5px 5px 0 0;
+        }
+
+
+    input[type="submit"], .button{
+        border: none;
+        background: #3C94A6;
+        color: white;
+        font-size: 1.8em;
+        cursor: pointer;
+        opacity: .7;
+    }
+        input[type="submit"]:hover, .button:hover{
+            opacity: 1
+        }
+    textarea{
+        background: #FAFFBD;
+        border: none;
+        outline: none;
+        width: 100%;
+        max-width: 100%;
+        min-height: 180px;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+    .clear-margin-bottom{
+         clear: both;
+         margin-bottom: .5em;
+    }
+
+    .error{
+        color: #BC1305;
+        opacity: .8;
+        font-size: .8em;
+        margin: .5em;
+
+    }
+
+     a.helper{
+        color: #3C94A6;
+        text-decoration: none;        
+        opacity: .7;
+        font-size: .8em;
+        margin: .5em;
+    }
+        a.helper:hover{
+            opacity: 1;
+        }
+
+    div.hint{
+        font-size: .8em;
+        opacity: .6;
+    }
+
+    a.userName{
+            color: white;
+            background: #3C94A6;
+            padding: .2em;
+            display: inline-block;
+            opacity: .3;
+            margin-bottom: .5em; 
+            text-decoration: none;      
+            text-shadow: 1px 1px 1px rgba(0,0,0,.6);  
+            -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+            -moz-text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+        }
+            a.userName:hover{
+                opacity: 1
+            }
+
+    .num_positive{color: #306905;}
+
+    .num_neutral{color: #626455;}
+
+    .num_negative{color: #FE2121;}
+
+
+
+#header{
+    position: relative;
+    left: 50%;
+    margin-top: 7em;        
+    margin-left: -175px;
+    text-align: center;
+    margin-bottom: -25px;
+    
+}       
+    #mainMenu{
+        margin-top: -.5em;
+    }
+
+        #header #mainMenu a{
+            text-decoration: none;
+            font-size: 2em;
+            color: #3C94A6;
+            opacity: .6;
+            display: block;
+            z-index: 2;         
+        }
+            #header #mainMenu a:hover{
+                opacity: 1;
+            }
+.cloud {
+    width: 350px; height: 120px;    
+    background: white;      
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;  
+    position: relative;
+    margin: 120px auto 20px;
+}
+
+.cloud:after, .cloud:before {
+    content: '';
+    position: absolute;
+    background: white;
+    z-index: -1
+}
+
+.cloud:after {
+    width: 100px; height: 100px;
+    top: -50px; left: 50px; 
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.cloud:before {
+    width: 180px; height: 180px;
+    top: -90px; right: 50px;    
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+}
+
+    .cloud, .cloud::after, .cloud::before{
+        box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 1); 
+        -moz-box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+        -o-box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+    }
+
+    #userBar{
+        position: relative;
+        display: inline-block;
+        left: 140px;
+        top: -50px;
+        -webkit-transform:rotate(-30deg);
+        -moz-transform:rotate(-30deg);
+        transform:rotate(-30deg);
+         -ms-transform:(-30deg);
+         -o-transform:(-30deg);
+    }       
+
+        #userBar a#sign{
+            font-size: 16px;
+            text-decoration: none;
+            color: #8ABFC9;     
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+            font-weight: bold;  
+            box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+            -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 1); 
+            -moz-box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+            -o-box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+
+        }
+            #userBar a#sign:hover{          
+                color: #61B5C7;
+            }
+
+#container{
+    position: relative;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    background: white;
+    padding-bottom: 2em; 
+    
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+    #post{
+
+    }
+        #post #title{
+            font-size: 2.2em;
+            margin: 0;
+            margin-bottom: .2em;
+            display: block;
+        }
+
+        #post #body{
+            margin: .5em;
+            opacity: .9;
+            font-size: .8em;
+        }
+
+        .postOptions a.remove, .postOptions a.edit{
+                font-size: .8em;
+                opacity: .5;
+                text-decoration: none;
+                color: #919191;
+            }
+                .postOptions a.remove:hover, .postOptions a.edit:hover{
+                    opacity: 1;
+                }
+
+    #posts{
+
+    }
+        div.post{
+            margin: 1em;
+            margin-bottom: 3em;                        
+        }
+            .post a.title{                
+                font-size: 2em;
+                color: black;
+                text-decoration: none;
+                opacity: .5;
+                padding: .2em;                
+            }
+
+                .post a.title:hover{
+                    background: orange;
+                    opacity: 1;
+                    color: white;
+                }
+
+            .post .extra{
+                margin-left: .5em;               
+            }
+                .post .extra img[type="video"]{
+                                
+                }
+
+                    .post .extra span{
+                        position: absolute;
+                        width: 120px;
+                        height: 90px;
+                        background: url('/Templates/Base/css/img/play_btn.png') no-repeat; 
+                        background-size: 60px;   
+                        background-position: center;
+                        z-index: 2;
+                        margin-left: -120px;    
+                        opacity: .6;                                     
+                    }
+                        .post .extra span:hover{
+                            opacity: 1
+                        }
+
+            .post .body{
+                font-size: .8em;
+                padding: 5px;
+                margin-bottom: .5em;
+            }
+    .postInfo{
+        float: right;
+        margin-bottom: 5px;
+        font-size: .6em;
+        color: #939491;     
+    }        
+
+    .commentsInfo{
+        float: left;
+        margin-bottom: 5px;
+        font-size: .6em;
+        color: #939491;
+    }
+        .commentsInfo a{
+            opacity: .6;
+            text-decoration: none;
+        }
+            .commentsInfo a:hover{
+                opacity: .8;
+            }
+
+    .postActions{  
+        font-size: .8em;
+        display: inline-block;
+        margin-bottom: 1em;
+    }
+        .postActions a{
+            padding: 5px;                       
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            opacity: .5;
+        }
+            .postActions a:hover{
+                background: orange; 
+                opacity: 1;
+                color: white;
+            }
+    .postTags{
+        margin-bottom: .5em;
+    }
+        .postTags a{
+            text-decoration: none;
+            color: black;
+            opacity: .5;
+            font-size: .9em;            
+            padding: 5px;
+        }
+            .postTags a:hover{
+                background: orange;
+                opacity: 1;
+                color: white;
+            }
+
+
+    #comments{
+        padding-left: 1em;
+    }
+        #addComment form textarea{
+            min-height: 70px;
+            
+        }
+
+    .comment{
+        margin-top: 1em;
+        margin-right: 1.5em;
+    }
+        .commentInfo{
+
+        }
+            .commentUser{
+                display: inline-block;
+                font-size: .8em;
+            }
+
+            .commentTime{
+                font-size: .6em;
+                opacity: .8;
+                display: inline-block;
+            }
+        .commentBody{
+            font-size: .9em;
+            opacity: .9;
+            padding-left: 1em;    
+            display: inline-block;        
+        }
+
+        .commentActions{
+            font-size: .6em;
+            opacity: .8;
+            display: inline-block;
+        }
+            .commentActions a{
+                text-decoration: none;
+                opacity: .8;
+            }
+                .commentActions a:hover{
+                    opacity: 1;
+                }
+        .commentFrom{
+            font-size: .6em;
+            opacity: .8;
+            margin-bottom: .5em;
+        }
+            .commentFrom a{
+                text-decoration: none;
+                opacity: .8;
+            }
+                .commentFrom a:hover{
+                    opacity: 1;
+                }
+
+
+    #userPage{
+
+    }
+        #userPage #userName{
+            color: white;
+            background: #3C94A6;
+            padding: .3em;
+            display: inline-block;
+            opacity: .7;
+            margin-bottom: .5em;
+            text-shadow: 1px 1px 1px rgba(0,0,0,.3);  
+            -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+            -moz-text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+        }
+
+        #show{
+            font-size: .9em;
+            margin-left: 1em;
+            margin-bottom: 2em;
+        }
+            #show a{
+                color: #3C94A6;
+                border-bottom: 1px dashed #3C94A6;
+                text-decoration: none;
+                margin-right: 5px;                
+            }
+
+            #show .selected{
+                margin-right: 5px;
+                padding: .2em;
+                background: #3C94A6;
+                color: white;
+            }
+
+        #userComments{
+            margin-left: 1em;
+        }
+
+    #userRating{
+        float: right;
+        font-size: 1.5em;
+        opacity: .5;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+
+
+
+.postRating{
+    display: inline-block;
+}
+    .postRatingValue{
+        font-size: .8em;
+        font-family: monospace;
+        font-weight: bold;
+        opacity: .7;
+    }
+
+.commentRating{
+    float: right;
+}
+    .commentRatingValue{
+        font-size: .8em;
+        font-family: monospace;
+        font-weight: bold;
+        opacity: .7;
+        display: inline;
+    }
+
+    .commentRatingActions{
+        display: inline;
+    }
+
+    .commentRating button.rateButton{
+        font-size: 0.5em;
+    }
+
+button.rateButton{    
+    border: 0;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0.4em;
+    padding-bottom: 0; 
+    padding-top: 0; 
+    font-family: Arial;
+    font-weight: bold;
+    opacity: .3;
+}
+    button.rateButton:hover {
+        opacity: 1
+    }    
+
+    button.rateButton[direction="positive"]{
+        color: white;
+        background: #468E11
+    }
+
+    button.rateButton[direction="negative"]{
+        color: white;
+        background: #CC2109;
+    }
+
+
+table#manager{
+    width: 100%;
+    padding-left: 1em;
+
+}
+    #manager .user{
+
+    }
+
+        #manager .user .info{
+            vertical-align: middle;
+        }
+            #manager .user .info a{
+                margin: 0;
+            }
+
+        #manager .user .actions{
+            text-align: right;
+        }
+            #manager .user .actions a{
+                text-decoration: none;
+                opacity: 0.5
+            }
+
+#confirm{
+
+}
+    #confirm #actions{
+        margin-top: 1em;
+    }
+        #confirm #actions a{
+            margin-right: 1em;
+        }
+            #confirm a#yes{
+                border: none;
+                background: red;
+                color: white;
+                font-size: 1.2em;
+                cursor: pointer;
+                opacity: .7;
+                padding: .3em;
+                text-decoration: none;
+            }
+            #confirm a#no{}
+
+
+   
+
+
+.pager{
+    padding: 10px;
+}
+    .pager a{
+        position: relative;        
+        margin: 5px;       
+        margin-right: 10px;        
+        text-decoration: none;
+        color: #3C94A6
+    }
+
+        .pagerCurrent{
+            background: #3C94A6;                           
+            margin-right: 10px;
+            padding: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+            .pagerCurrent a{
+                color: white;
+                margin: 0;
+            }
+
+#footer{
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    margin: 2em;
+    padding-bottom: 300px;
+    float: left;
+    opacity: .4;
+    
+}
+    #footer span{       
+        padding: 5px; 
+        color: white;
+        background: #3C94A6;
+        border-radius: 10px 0 10px 0;
+    }
+        #footer span::after{
+            position: absolute;
+            background: #258103;
+            border-radius: 10px 0 10px 0;       
+            content: "";
+            width: 20px;
+            height: 10px;
+            margin-top: -14px;
+            margin-left: 4px;
+            border: 1px double #298D03;
+
+        }
+
+

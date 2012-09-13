@@ -1,0 +1,1560 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mouse",
+				"mouseAlertTimeout"
+			],
+			[
+				"mouseAl",
+				"mouseAlertBlock"
+			],
+			[
+				"cle",
+				"clearUserCache"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"co",
+				"comment_rating_el"
+			],
+			[
+				"comme",
+				"comment"
+			],
+			[
+				"user",
+				"userFactor"
+			],
+			[
+				"pos",
+				"postsRating"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"al",
+				"allowTags"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"comments",
+				"commentsInfo"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"th",
+				"throughData"
+			],
+			[
+				"com",
+				"commentText"
+			],
+			[
+				"Post",
+				"postId"
+			],
+			[
+				"comment",
+				"commentText"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"thum",
+				"thumbnail"
+			],
+			[
+				"thumb",
+				"thumbnail_medium"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"ex",
+				"extraArray"
+			],
+			[
+				"getPosts",
+				"getPostsCount"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"post",
+				"postTags"
+			],
+			[
+				"exec",
+				"execQuery"
+			],
+			[
+				"bas",
+				"baseFilename"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"inner",
+				"innerFilename"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"au",
+				"autoLoginHash"
+			],
+			[
+				"heade",
+				"headerTpl"
+			],
+			[
+				"not",
+				"NotFound"
+			],
+			[
+				"getPost",
+				"getPostActions"
+			],
+			[
+				"ac",
+				"actionController"
+			],
+			[
+				"par",
+				"parse_url"
+			],
+			[
+				"use",
+				"userO"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"ne",
+				"newPassword"
+			],
+			[
+				"passw",
+				"passwordHash"
+			],
+			[
+				"getU",
+				"getUserInfoByCookie"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"save",
+				"saveMessagesArray"
+			],
+			[
+				"getMess",
+				"getMessageByKey"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"mes",
+				"messages"
+			],
+			[
+				"messa",
+				"MESSAGES_PER_PAGE"
+			],
+			[
+				"MESSA",
+				"MESSAGES_PER_PAGE"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"tx",
+				"text-decoration"
+			],
+			[
+				"edit",
+				"editMessage"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"show",
+				"showMessage"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"lis",
+				"lists"
+			],
+			[
+				"rosters",
+				"rostersArray"
+			],
+			[
+				"genea",
+				"generateSearchText"
+			],
+			[
+				"bod",
+				"body"
+			],
+			[
+				"se",
+				"searchText"
+			],
+			[
+				"options",
+				"optionsSelect"
+			],
+			[
+				"tri",
+				"trigger"
+			],
+			[
+				"sele",
+				"selectRosterImage"
+			],
+			[
+				"rs",
+				"rsosh2ru_lab"
+			],
+			[
+				"cols",
+				"colsCount"
+			],
+			[
+				"rows",
+				"rowsCount"
+			],
+			[
+				"inpl",
+				"inplaceEdit"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"roste",
+				"rosterPage"
+			],
+			[
+				"optionS",
+				"optionsSelect"
+			],
+			[
+				"defa",
+				"default_text"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"are",
+				"areYouSureDialog"
+			],
+			[
+				"bo",
+				"bodyDialog"
+			],
+			[
+				"rosterEdi",
+				"rosterEditOptions"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"ha",
+				"hashArray"
+			],
+			[
+				"str_s",
+				"str_split"
+			],
+			[
+				"imaged",
+				"imagedestroy"
+			],
+			[
+				"imagef",
+				"imagefilledrectangle"
+			],
+			[
+				"tagsR",
+				"tagnlistRS"
+			],
+			[
+				"fora",
+				"foreach	foreach …"
+			],
+			[
+				"load",
+				"loadedHandler"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"read",
+				"readyInterval"
+			],
+			[
+				"image",
+				"imagesLoaded"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ajx",
+				"ajaxBusy"
+			],
+			[
+				"na",
+				"navArray"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"roster",
+				"rosterMini"
+			],
+			[
+				"rosterMi",
+				"rosterMiniHtml"
+			],
+			[
+				"tagSe",
+				"tagSearch"
+			],
+			[
+				"tag",
+				"tagSearch"
+			],
+			[
+				"bui",
+				"buildTagSearchPage"
+			],
+			[
+				"list",
+				"listsArray"
+			],
+			[
+				"getEle",
+				"getElementBy"
+			],
+			[
+				"l",
+				"listId"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"de",
+				"defaultPage"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ite",
+				"items"
+			],
+			[
+				"border",
+				"border-collapse"
+			],
+			[
+				"rosterIma",
+				"rosterImageSelelect"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"ros",
+				"rosterImage"
+			],
+			[
+				"mainPage",
+				"mainPageHtml"
+			],
+			[
+				"item",
+				"itemNumber"
+			],
+			[
+				"itemIma",
+				"itemImageHtml"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"tags",
+				"tagsArray"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ti",
+				"tickUpdate"
+			],
+			[
+				"rops",
+				"rosterOptionsPublic"
+			],
+			[
+				"rosterOp",
+				"rosterOptionsPublic"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/ratings.js",
+			"settings":
+			{
+				"buffer_size": 1714,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/effects.js",
+			"settings":
+			{
+				"buffer_size": 1166,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/Controller.php",
+			"settings":
+			{
+				"buffer_size": 562,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/Actions/ActionRate.php",
+			"settings":
+			{
+				"buffer_size": 2138,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.php",
+			"settings":
+			{
+				"buffer_size": 2332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/PostMapper.php",
+			"settings":
+			{
+				"buffer_size": 5021,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/Actions/ActionShowUserPage.php",
+			"settings":
+			{
+				"buffer_size": 1231,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/CommentMapper.php",
+			"settings":
+			{
+				"buffer_size": 3047,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/PostPage.phtml",
+			"settings":
+			{
+				"buffer_size": 2117,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/Base/Default.phtml",
+			"settings":
+			{
+				"buffer_size": 811,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/Common/comment.phtml",
+			"settings":
+			{
+				"buffer_size": 1493,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/UserMapper.php",
+			"settings":
+			{
+				"buffer_size": 7291,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/Common/post.phtml",
+			"settings":
+			{
+				"buffer_size": 1617,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/Base/css/Default.css",
+			"settings":
+			{
+				"buffer_size": 14417,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/Decorate.php",
+			"settings":
+			{
+				"buffer_size": 5730,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/Db.php",
+			"settings":
+			{
+				"buffer_size": 2025,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Templates/UserPage.phtml",
+			"settings":
+			{
+				"buffer_size": 1846,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/Actions/ActionCreatePost.php",
+			"settings":
+			{
+				"buffer_size": 853,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/TagMapper.php",
+			"settings":
+			{
+				"buffer_size": 1526,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/Actions/ActionEditPost.php",
+			"settings":
+			{
+				"buffer_size": 1333,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"we",
+				"WebSequenceDiagrams"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/W/home/george.blog/www/george.blog.sublime-project",
+		"/W/home/george.blog/www/Classes/Request.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionCreatePost.php",
+		"/W/home/george.blog/www/Classes/Filter.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionShowPost.php",
+		"/W/home/george.blog/www/Templates/Base/css/Default.css",
+		"/W/home/george.blog/www/Templates/UserPage.phtml",
+		"/W/home/george.blog/www/Classes/Comment.php",
+		"/W/home/george.blog/www/Classes/CommentMapper.php",
+		"/W/home/george.blog/www/Classes/UserMapper.php",
+		"/W/home/george.blog/www/Classes/PostMapper.php",
+		"/W/home/george.blog/www/Classes/Post.php",
+		"/W/home/george.blog/www/Classes/User.php",
+		"/W/home/george.blog/www/Classes/Db.php",
+		"/W/home/george.blog/www/Templates/PostPage.phtml",
+		"/W/home/george.blog/www/Templates/Common/post.phtml",
+		"/W/home/george.blog/www/Classes/Decorate.php",
+		"/W/home/george.blog/www/config.php",
+		"/W/home/george.blog/www/Classes/Cache.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionShowUserPage.php",
+		"/W/home/george.blog/www/Templates/Base/Default.phtml",
+		"/W/home/george.blog/www/Templates/Common/comment.phtml",
+		"/W/home/qasystems/www/index.php",
+		"/W/home/george.blog/www/Classes/Utils/PastelHash.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionEditPost.php",
+		"/W/home/george.blog/www/Templates/CreatePost.phtml",
+		"/W/home/george.blog/www/Templates/EditPost.phtml",
+		"/W/home/george.blog/www/Templates/SignIn.phtml",
+		"/W/home/george.blog/www/Templates/SignUp.phtml",
+		"/W/home/george.blog/www/Classes/Actions/ActionShowMainPage.php",
+		"/W/home/george.blog/www/Templates/MainPage.phtml",
+		"/W/home/george.blog/www/Templates/Common/commentForm.phtml",
+		"/W/home/george.blog/www/Classes/Actions/ActionAddComment.php",
+		"/W/home/george.blog/www/Classes/View.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionRemoveComment.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionSignOut.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionSignIn.php",
+		"/W/home/george.blog/www/Templates/TagSearch.phtml",
+		"/W/home/george.blog/www/Classes/Controller.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionShowTagPage.php",
+		"/C/TestCase/sound.wav",
+		"/C/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/devenv.exe",
+		"/W/home/george.blog/www/Classes/Actions/ActionSignUp.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionShowCreatePost.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionRemovePost.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionShowEditPost.php",
+		"/W/home/george.blog/www/Classes/TagMapper.php",
+		"/W/home/george.blog/www/Classes/Tag.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionShowSignUp.php",
+		"/W/home/george.blog/www/Classes/Actions/ActionShowSignIn.php",
+		"/W/home/george.blog/www/Templates/MainPage",
+		"/W/home/george.blog/www/index.php",
+		"/W/home/george.blog/www/Classes/Actions/Templates/DefaultPage.phtml",
+		"/W/home/george.blog/www/Classes/Actions/Templates/Header.phtml",
+		"/W/home/george.blog/www/css/main.css",
+		"/W/home/george.blog/www/Classes/Actions/Templates/MiniPost.phtml",
+		"/W/home/george.blog/www/Classes/Actions/Templates/Post.phtml",
+		"/W/home/george.blog/www/Classes/Actions/Templates/Footer.phtml",
+		"/W/home/george.blog/www/Classes/Actions/Templates/Post",
+		"/W/home/george.blog/www/Classes/Actions/Templates/header.phtml",
+		"/W/home/george.blog/www/classes/controller.php",
+		"/W/home/george.blog/www/classes/user.php",
+		"/W/home/george.blog/www/classes/dbhandler.php",
+		"/W/home/george.blog/www/classes/db.php",
+		"/W/home/george.blog/www/classes/view.php",
+		"/W/home/george.blog/www/classes/Post.php",
+		"/W/usr/local/apache/conf/extra/httpd-default.conf",
+		"/W/home/books.dev/www/php/main.php",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/george/blog/www/index.php",
+		"/C/xampp/htdocs/george/mvc/www/messages.dat",
+		"/C/xampp/htdocs/george/mvc/www/allInOne.php",
+		"/C/xampp/htdocs/george/mvc/www/classes/dbhandler",
+		"/C/xampp/htdocs/george/mvc/www/e-mvc.sublime-project",
+		"/C/Users/User/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/W/home/e-mvc/www/messages.dat",
+		"/W/home/e-mvc/www/index.php",
+		"/C/Users/User/AppData/Local/Temp/_tc_/api.php",
+		"/C/Users/User/AppData/Local/Temp/_tc/api.php",
+		"/C/Users/User/AppData/Local/Temp/_tc/main.php",
+		"/W/home/steproaster/www/frontend/js/jsupload.js",
+		"/W/home/steproaster/www/frontend/js/jquery.editinplace.js",
+		"/W/home/steproaster/www/frontend/js/fancybox/jquery.fancybox.js",
+		"/W/home/steproaster/www/frontend/js/extra.js",
+		"/W/home/steproaster/www/index.php",
+		"/C/Users/User/AppData/Local/Temp/_tc/stepRosterMain.js",
+		"/W/home/steproaster/www/backend/md5toimg.php",
+		"/W/home/steproaster/www/frontend/js/jpreloader.js",
+		"/W/home/steproaster/www/.htaccess",
+		"/W/home/steproaster/www/frontend/js/galleria/galleria.js",
+		"/C/Users/User/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/W/home/steproaster/www/backend/main.php"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"comment",
+			"deg",
+			"error",
+			"M",
+			"post",
+			"U",
+			"model",
+			";            ",
+			"remove",
+			"reinit",
+			"didEnd",
+			"close",
+			"postclose",
+			"setEd",
+			"setEdi",
+			"change",
+			"textarea",
+			"setEdit",
+			"md5toimg",
+			"MD5",
+			"foreach($tagnlistRS as $k=>$tagnlist){\n						if($listR = getElementBy('rosters', 'id', $tagnlist['list']))\n							$lists[] = json_decode($listR['json']);\n					",
+			"tags",
+			"exten",
+			"addNewItem",
+			"errorHan",
+			"getUserByCookie",
+			"selection",
+			"vertical",
+			"Selection",
+			"rosterImage",
+			"selection",
+			"postChanges",
+			"upload",
+			"imageD",
+			"rosterImage",
+			"post",
+			"rosterTags",
+			"tags",
+			"editable",
+			"append",
+			"void(0)",
+			"checkUserRights",
+			"allUpdateFunctions",
+			"addRosterOptions",
+			"  ",
+			"sign",
+			") ",
+			"error",
+			"_error",
+			"requ",
+			"seti",
+			"set",
+			"conf",
+			"alert",
+			"IMG_MIN",
+			"button =",
+			"butt",
+			"default",
+			"inplace_",
+			"alert",
+			"inplace_value",
+			"setTimeout",
+			"setT",
+			"postChanges",
+			"openEditor",
+			"click",
+			"restoreOriginalValue",
+			"restoreOriginalValue()",
+			"this.dom.find(':input').val",
+			"didForgetRequiredText",
+			"value_required",
+			"}\n"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"post",
+			"miniPost",
+			"dbhandler"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/ratings.js",
+					"settings":
+					{
+						"buffer_size": 1714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								637,
+								637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/effects.js",
+					"settings":
+					{
+						"buffer_size": 1166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Classes/Controller.php",
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Classes/Actions/ActionRate.php",
+					"settings":
+					{
+						"buffer_size": 2138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config.php",
+					"settings":
+					{
+						"buffer_size": 2332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Classes/PostMapper.php",
+					"settings":
+					{
+						"buffer_size": 5021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1642,
+								1642
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Classes/Actions/ActionShowUserPage.php",
+					"settings":
+					{
+						"buffer_size": 1231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Classes/CommentMapper.php",
+					"settings":
+					{
+						"buffer_size": 3047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Templates/PostPage.phtml",
+					"settings":
+					{
+						"buffer_size": 2117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Templates/Base/Default.phtml",
+					"settings":
+					{
+						"buffer_size": 811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Templates/Common/comment.phtml",
+					"settings":
+					{
+						"buffer_size": 1493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Classes/UserMapper.php",
+					"settings":
+					{
+						"buffer_size": 7291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1184.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Templates/Common/post.phtml",
+					"settings":
+					{
+						"buffer_size": 1617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1359,
+								1359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Templates/Base/css/Default.css",
+					"settings":
+					{
+						"buffer_size": 14417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6323.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "Classes/Decorate.php",
+					"settings":
+					{
+						"buffer_size": 5730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "Classes/Db.php",
+					"settings":
+					{
+						"buffer_size": 2025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "Templates/UserPage.phtml",
+					"settings":
+					{
+						"buffer_size": 1846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "Classes/Actions/ActionCreatePost.php",
+					"settings":
+					{
+						"buffer_size": 853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								672,
+								672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "Classes/TagMapper.php",
+					"settings":
+					{
+						"buffer_size": 1526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								823,
+								823
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "Classes/Actions/ActionEditPost.php",
+					"settings":
+					{
+						"buffer_size": 1333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								402,
+								402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true
+}

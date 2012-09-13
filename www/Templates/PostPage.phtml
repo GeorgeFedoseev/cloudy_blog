@@ -1,0 +1,64 @@
+<div id="post">
+	<div id="title"><?=$this->post->getTitle()?></div>
+	<div id="extra"><?=Decorate::showExtra($this->post->getExtra())?></div>
+	<div id="body"><?=Decorate::newLines($this->post->getBody())?></div>	
+	<div id="postFooter">						
+		<?
+		
+		if(
+				($user = $this->activeUser) 
+					&& (
+						  $user->getRights() == USER_RIGHTS_ADMIN 
+						  || ($ownership = UserMapper::ownership($this->post, $user))
+						)
+		  ){?>
+			<div class="postActions">
+			  <a href="/edit/<?=$this->post->getId()?>">редактировать</a>
+			  <a href="/confirm/remove/<?=$this->post->getId()?>">удалить</a>
+			</div>		
+		<?}?> 
+
+		<?if($this->postTags):?>
+		  <div class="postTags">
+		  	<b>Теги:</b> 
+			<?foreach($this->postTags as $tag):?>
+				<a href="/tag/<?=$tag->getTag()?>"><?=$tag->getTag()?></a> 
+			<?endforeach;?>
+		  </div>
+		<?endif;?>
+
+		<div class="postInfo">			
+			<?$owner = PostMapper::getOwner($this->post);?>
+				Написал(-а) <?=Decorate::getName($owner)?> <?=Decorate::time($this->post->getCreated())?>			
+		</div>		
+		<div class="clear"></div>
+		<div class="postRating">
+		 <div class="postRatingValue">↑↓<?=Decorate::feelNumber(round($this->post->getRating(), 3))?></div>
+			<?if($user = UserMapper::getUser()){?>
+				<div class="postRatingActions">
+					<button rate_type="post" id="<?=$this->post->getId()?>" direction="positive" class="rateButton">+</button>
+					<button rate_type="post" id="<?=$this->post->getId()?>" direction="negative" class="rateButton">-</button>
+				</div>
+			<?}?>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	<div id="comments">
+		<a name="comments"></a>
+			<?if($comments = PostMapper::getComments($this->post)){?>
+			  <h3>комментарии (<?=count($comments)?>)</h3>
+				<?foreach($comments as $comment):?>
+					<?=View::commonRender("comment", array("comment" => $comment))?>
+				<?endforeach;?>
+			<?}else{?>
+				<h3>Пока без комментариев</h3>
+			<?}?>
+	</div>
+
+		<?if($this->activeUser):?>
+			<?=View::commonRender("commentForm", array("post" => $this->post))?>
+		<?else:?>
+			<h3><a href="/signin/">авторизируйтесь</a>, чтобы добавлять комментарии</h3>
+		<?endif;?>
+</div>
